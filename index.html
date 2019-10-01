@@ -11,6 +11,8 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
 	
 
 
@@ -587,7 +589,30 @@
 
 	</div>
 
-
+<form name="contact" method="POST" data-netlify="true">
+            <h5>Please fill out this form</h5>
+            <div class="input-field">
+              <input type="text" placeholder="Name" name="name">
+              <label for="name">Name</label>
+            </div>
+            <div class="input-field">
+              <input type="text" placeholder="Phone" name="phone">
+              <label for="phone">Phone</label>
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="quantity" name="quantity">
+                <label for="phone">Quantity</label>
+              </div>
+              <div class="input-field">
+                  <input type="text" placeholder="mob" name="mob">
+                  <label for="mob">Mobile</label>
+                </div>
+            <div class="input-field">
+              <textarea class="materialize-textarea" placeholder="Address" name="message"></textarea>
+              <label for="message">Address</label>
+            </div>
+            <input type="submit" value="Submit" class="btn-large  blue-grey darken-4 waves-effect waves-light">
+ </form>
 
 
 
